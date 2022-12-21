@@ -1,5 +1,6 @@
 import React, { FC, ReactElement } from 'react'
 import { Grid } from '@mui/material'
+import { Profile } from '../profile/Profile'
 
 export const Sidebar:FC = ():ReactElement => {
     return(
@@ -18,7 +19,7 @@ export const Sidebar:FC = ():ReactElement => {
             flexDirection: 'column',
             alignItems: 'center',
     }}>
-        <h2>Side bar</h2>
+        <Profile />
     </Grid>
     )
 }

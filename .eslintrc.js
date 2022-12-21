@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     "env": {
         "browser": true,
         "es2021": true
@@ -7,7 +7,7 @@ export default {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier"
+        "prettier",
     ],
     "overrides": [
     ],
@@ -19,7 +19,7 @@ export default {
     "plugins": [
         "react",
         "@typescript-eslint",
-        "prettier"
+        "prettier",
     ],
     "rules": {
     },
