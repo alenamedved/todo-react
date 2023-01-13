@@ -27,7 +27,7 @@ export const TaskSelectField: FC<ISelectField> = (
       <InputLabel id={`${name}-id`}>{label}</InputLabel>
       <Select
         labelId={`${name}-id`}
-        id={`${name}-select`}
+        id={`${name}-id-select`}
         value={value}
         label={label}
         name={name}
